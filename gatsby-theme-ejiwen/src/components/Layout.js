@@ -1,10 +1,12 @@
 import React from 'react';
+import { jsx, Styled, Heading } from 'theme-ui';
 
 const Layout = ({children}) => (
-    <>
-    <h1> Ejiwen blog </h1>
+    <div>
+    <Heading> TEST </Heading>
+    <Styled.h1> Ejiwen blog ...</Styled.h1>
     <div> {children} </div>
-    </>
+    </div>
 )
 
 export default Layout;
